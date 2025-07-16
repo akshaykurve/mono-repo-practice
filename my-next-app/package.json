@@ -1,0 +1,22 @@
+{
+  "name": "@mon-practice/my-next-app",
+  "targets": {
+    "dev": {
+      "executor": "@nx/next:dev",
+      "options": {
+        "buildTarget": "my-next-app:build"
+      }
+    },
+    "build": {
+      "executor": "@nx/next:build",
+      "options": {}
+    }
+  },
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "next": "~15.2.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
